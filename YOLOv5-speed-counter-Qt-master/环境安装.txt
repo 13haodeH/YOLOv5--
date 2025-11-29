@@ -1,1 +1,0 @@
-conda create -n yolov5_qt python=3.7 -y & conda activate yolov5_qt & cd /d %~dp0 & pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/ & pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
